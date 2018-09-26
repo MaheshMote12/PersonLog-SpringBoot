@@ -29,4 +29,5 @@ hs_err_pid*
 
 
 /PersonLogs/target
-/PersonLogs/Eclipse
+
+/PersonLogs/Eclipse/
