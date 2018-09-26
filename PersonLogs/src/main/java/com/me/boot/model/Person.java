@@ -40,7 +40,8 @@ public class Person {
 	
 	private String orgName;
 	
-	private int mobile;
+
+	private Long mobile;
 
 	
 //	Dates for auditing
@@ -76,7 +77,7 @@ public class Person {
 	}
 
 
-	public Person(String firstName, String lastName, String email, String orgName, int mobile, List<Address> addr) {
+	public Person(String firstName, String lastName, String email, String orgName, Long  mobile, List<Address> addr) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
