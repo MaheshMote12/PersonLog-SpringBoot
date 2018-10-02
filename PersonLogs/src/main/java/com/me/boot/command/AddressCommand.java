@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class AddressCommand {
-
+//
 	private Long id;
 	
 	private String city;
